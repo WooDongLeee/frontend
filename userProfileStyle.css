@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+}
+#text{
+  font-size: 18px;
+}
+.profileText{
+  margin: 1px;
+}
+.headerMenuText{
+  margin-right: 20px;
+}
