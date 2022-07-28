@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="userProfileStyle.css" />
+</head>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  }
+  #profile{
+    height: 60px;
+    width: auto;
+  }
+  #logoimg{
+    width: 370px;
+  }
+  #text{
+    font-size: 45px;
+    margin: 50px;
+    font-weight: bold;
+  }
+  #maintext{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 5px;
+  }
+  #inputText{
+    font-size: 32px;
+    padding: 5px;
+    margin: 0 5px;
+    font-family: 'Inter';
+    font-style: normal; 
+  }
+  .maincontainer{
+    padding: 30px 80px;
+  }
+</style>
+<body>
+
+  <div class="container" style="width: 2560px; height:1400px; background-color: #f8f6f6;margin: auto;">
+    <header style="height: 350px;padding: 0 580px;">
+      <span><img id="logoimg"src="logo.svg"></span>
+      <div class="headerMenu">
+        <a class="menuText">
+          <a class="headerMenuText" id="text">용병</a>
+          <a class="headerMenuText" id="text">팀</a>
+          <a class="headerMenuText" id="text">순위</a>
+        </a>
+        <a class="menuImage" style="margin-left: 550px;">
+          <span><img id="profile"src="team.svg" style="margin-right: 90px;"></span>
+          <span><img id="profile"src="userProfile.svg"></span>
+        </a>
+      </div>
+    </header>
+
+    <p style="background-color: #3A4Ca8;color: #3A4Ca8;">-</p>
+
+    <main style="margin:0 580px">
+      
+      <div class="maincontainer">
+        <a id="text">회원 정보</a>
+        <div class="mainProfile">
+          <img id="profile"src="userProfile.svg" style="float: left;border-radius: 500px;width: 150px; height: auto;margin: 30px;">
+          <div style="padding: 40px;">
+            <a style="display: block;margin: 25px 0;"id="maintext" >나의 프로필</a>
+            <a id="maintext" style="padding: 10px 20px;background-color: #3A4Ca8;color: white;">사진 업로드</a>
+          </div>
+        </div>
+        <div style="display: flex;clear: left;"">
+          <div class="mainInput">
+            <p id="maintext" >이메일</p>
+            <input id="inputText" type="text" placeholder="이메일">
+            <p id="maintext" >아이디</p>
+            <input id="inputText" type="text" placeholder="아이디">
+            <p id="maintext" >이름</p>
+            <input id="inputText" type="text" placeholder="이름">
+            <p id="maintext" >성별</p>
+            <input id="inputText" type="text" placeholder="성별">
+            <p id="maintext" >나이</p>
+            <input id="inputText" type="text" placeholder="나이">
+            <p id="maintext" >동네</p>
+            <input id="inputText" type="text" placeholder="동네">
+          </div>
+          <div style="margin-left: 300px;">
+            <p id="maintext">소개</p>
+            <input id="inputText" type="text" placeholder="소개" style="width: 528px;height:577px">
+          </div>
+        </div>
+        
+      </div>
+
+    </main>
+
+  </div>
+</body>
+</html>
