@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="회원가입.css">
+    <script src="./회원가입.js"></script>
+    <title>회원가입 페이지</title>
+</head>
+<body>
+    <div class="main">
+        <div class="icon">
+            <img id="logo" src="https://s3-alpha-sig.figma.com/img/352b/0d98/ed5be13e330c785a381103bf4c32ff41?Expires=1659916800&Signature=A50hF3nHj7Jw363Br7H4UnCl8PJl5heFrL5UVrQchK~M~AoBg6bnNXxjMacxzJ46LnW7eSy-quBn6wwdVKSTM~HU5CpnkYR3t453n35LtKN2KlY0~bsQzTZMCkm2NdIOk4UyIfOJq2vbgV1AjqMgweyAcJhqHOHbtHhs2NBD-VulYrMxEfOd2j-4xIlFFnvze~louifFdFYHmdkLxLHxiR~neAVPNoTTJZgwWazUukqn4r1ycVLsr-1Plw6ydh5sgbrA8SqT8XkBNfDfgX4763jQXEInUco8rAxHUUOK9q5MY~hQsozh0bLo7VtZSUArb93bt-gJEL-1ihikOZFN7Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA">
+        </div>
+        <div class="main2">
+            <div>
+                <h1>회원가입</h1>
+            </div>
+            <div id="id_box">
+                <div>
+                    <h2>아이디</h2>
+                    <input type="text" class="input_box1" id="id">
+                    <div id="idError" class="error"></div>
+                </div>
+                <button class="bt">중복 확인</button>
+            </div>
+            <div id="email_box">
+                <div>
+                    <h2>이메일</h2>
+                    <input type="text" class="input_box1" id="email" >
+                    <div id="emailError" class="error"></div>
+                </div>
+                <button class="bt">인증 요청</button>
+            </div>
+            <div id="email_re">
+                <div>
+                    <h2>이메일 인증</h2>
+                    <input type="text" class="input_box1">
+                </div>
+                <button class="bt">확인</button>
+            </div>
+            <div id="password_box">
+                <h2>비밀번호</h2>
+                <input type="password" class="input_box2" id="password" >
+                <div id="passwordError" class="error"></div>
+            </div>
+            <div id="password_check">
+                <h2>비밀번호 확인</h2>
+                <input type="password" class="input_box2" id="passwordCheck" >
+                <div id="passwordCheckError" class="error"></div>
+            </div>
+            <div id="name_box">
+                <h2>이름</h2>
+                <input type="password" class="input_box2" id="name" >
+                <div id="nameError" class="error"></div>
+            </div>
+            <div id="bottom">
+                <div id="age_box">
+                    <h2>나이</h2>
+                    <input type="text" class="input_box3" id="age">
+                    <div id="ageError" class="error"></div>
+                </div>
+                <div id="gender_box">
+                    <h2>성별</h2>
+                    <div id="background_gender">
+                        <input id="gender_man" type="radio" name="gender">남성
+                        <input id="gender_woman" type="radio" name="gender">여성
+                        <div id="genderError" class="error"></div>
+                    </div>
+                </div>
+                <div id="area_box">
+                    <h2>동네</h2>
+                    <select id="area">
+                        <option selected disabled>지역</option>
+                        <option>서울</option>
+                        <option>인천</option>
+                        <option>경기</option>
+                    </select>
+                    <div id="areaError" class="error"></div>
+                </div>
+            </div>
+    
+            <div id="sign_up">
+                <button class="member" id="signUpButton"  onclick="signUpCheck()">회원가입</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

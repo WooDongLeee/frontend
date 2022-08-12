@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.icon {
+    margin-bottom: 10px;
+    flex: 1;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    flex: 1;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.input_box1{
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    border: none;
+    width: 220px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.input_box2{
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    border: none;
+    width: 310px;
+    height: 35PX;
+}
+
+.input_box3{
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    border: none;
+    width: 70px;
+    height: 35PX;
+}
+
+.member{
+    border-radius: 25px;
+    background-color: #3A4CA8;
+    color: #FAFAFA;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    width: 310px;
+    height: 35px;
+    border: none;
+    padding: 5px 1px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.bt{
+    border-radius: 25px;
+    background-color: #3A4CA8;
+    color: #FAFAFA;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    width: 70px;
+    height: 35px;
+    border: none;
+    padding: 5px 1px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+#area_box {
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #3A4CA8;
+    font-weight: bold;
+    width: 200px;
+    flex: 1;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main2 {
+    width: 310px;
+    height: 900px;
+    flex: 1;
+    margin: 0 auto;
+    
+}
+
+#gender_box {
+    margin-left: 10px;
+}
+
+#background_gender {
+    width: 150px;
+    height: 35px;
+    padding: 5px 1px;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+}
+
+#gender_man {
+    width: 20px;
+    height: 20px;
+    background-color: #EEEEEE;
+    border-radius: 25px;
+    
+}
+
+#gender_woman {
+    width: 20px;
+    height: 20px;
+    background-color: #EEEEEE;
+    border-radius: 25px;
+}
+
+#id_box {
+    display: flex;
+}
+
+#email_box {
+    display: flex;
+}
+
+#email_re {
+    display: flex;
+}
+
+#bottom {
+    display: flex;
+}
+
+.error {
+    
+    font-size: 12px;
+    height: 15px;
+    color: #ff0000;
+    font-weight: 700;
+    padding-left: 5px;
+}
