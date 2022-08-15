@@ -1,0 +1,64 @@
+.header{
+    border-bottom: 10px solid #3A4CA8;
+}
+#logo{
+    width: 200px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.nav{
+    margin-bottom: 25px;
+    display: inline-block
+}
+#matchandrank{
+    margin-left: 200px;
+    display: inline-block;
+}
+#matchandrank>a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mercenarymatch{
+    color: #3A4CA8;
+    margin-left: 50px;
+}
+.others{
+    color: black;
+    margin-left: 100px;
+}
+.information{
+    display: inline-block;
+    margin-left: 400px;
+}
+.information>a>svg{
+    color: black;
+    height: 30px;
+    margin-left: 30px;
+}
+.filter{
+    height: 80px;
+    border-bottom: 2px solid #EEEEEE;
+    padding-left: 200px;
+}
+#position, #date, #time{
+    appearance: none;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: grey;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+#map{
+    background-color: blue;
+    width: 1000px;
+    height: 600px;
+}
