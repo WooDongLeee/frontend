@@ -24,11 +24,11 @@
     font-size: 30px;
     font-weight: bold;
 }
-#mercenarymatch{
+#ranking{
     color: #3A4CA8;
-    margin-left: 50px;
+    margin-left: 100px;
 }
-.others{
+#mercenarymatch, #teammatch{
     color: black;
     margin-left: 100px;
 }
@@ -62,15 +62,48 @@
 .main{
     background-color: #EEEEEE;
     height: 1440px;
-    padding-top: 100px;
 }
-.rank{
+.rankmain{
     width: 800px;
-    height: 200px;
+    height: 600px;
     background-color: #FAFAFA;
     margin-left: 300px;
 }
-.teamname>img{
-    width: 70px;
-    height: 70px;
+#rankheader{
+    width: 800px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
 }
+.ranknum{
+    margin-left: 80px;
+}
+.teamname{
+    margin-left: 50px;
+}
+.game{
+    margin-left: 200px;
+}
+.win{
+    margin-left: 100px;
+}
+.draw{
+    margin-left: 30px;
+}
+.lose{
+    margin-left: 30px;
+}
+.score{
+    margin-left: 50px;
+}
+#ranklist{
+    width: 800px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+}
+
