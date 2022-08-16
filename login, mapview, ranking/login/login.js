@@ -6,7 +6,7 @@ document.querySelector("#userloginbutton").addEventListener("click", () => {
     if (id == document.querySelector("#userloginid").value) {
         if(password == document.querySelector("#userloginpw").value) {
             alert("환영합니다.");
-            // document.location.href = "용병 매칭 페이지 링크";
+            location.href='../../매칭 지도/용병/matching_map.html';
         }
         else{
             document.getElementById("error").innerHTML="비밀번호가 올바르지 않습니다."

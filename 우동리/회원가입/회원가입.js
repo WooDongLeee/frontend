@@ -114,7 +114,8 @@ function signUpCheck(){
     
     //비동기 처리이벤트
     setTimeout(function() {
-        alert("회원가입에 성공했습니다.")
+        alert("회원가입에 성공했습니다.");
+        location.href = '../../login, mapview, ranking/login/login.html';
     },0);
     }
 }
